@@ -1,0 +1,33 @@
+.d-sidenav-item {
+  background: transparent !important;
+  border: none !important;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sarokaar-bg {
+  opacity: 0.2;
+  z-index: -999;
+  background-image: url("/images/assets/slogo-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform: translate(50%, 50%); */
+}
+
+.restrict {
+  background: transparent !important;
+  border: none;
+}
+.restrict:hover {
+  background: rgba(0, 0, 0, 0.4);
+}

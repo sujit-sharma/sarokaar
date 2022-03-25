@@ -1,0 +1,46 @@
+<nav class="sidenav bg-light">
+
+  <!-- Links -->
+  <ul class="list-group">
+    <li class="list-group-item">
+      <a class="nav-link text-dark" href="/admin/dashboard"><h1 class="sidenav-brand" style="font-size:30px">sar<span class="text-success">ok</span>aar</h1></a>
+    </li>
+    <li class="list-group-item" style="font-size:20px">
+      <i class="far fa-address-card"></i>
+      <form action="/admin/dashboard/profile" method="GET">
+        <input type="submit" value="profile" class="d-sidenav-item">
+      </form>
+    </li>
+    <li class="list-group-item" style="font-size:20px">
+      <i class="fas fa-cog"></i>
+      <form action="/admin/dashboard/settings" method="GET">
+        <input type="submit" value="settings" class="d-sidenav-item">
+      </form>
+    </li>
+    <li class="list-group-item" style="font-size:20px">
+      <i class="fas fa-sign-out-alt"></i>
+      <form action="/admin/logout" method="GET">
+        <input type="submit" value="logout" class="d-sidenav-item">
+      </form>
+    </li>
+    <li class="list-group-item" style="font-size:20px">
+      <i class="far fa-registered"></i>
+      <form action="/admin/dashboard/invite" method="GET">
+        <input type="submit" value="invite" class="d-sidenav-item">
+      </form>
+    </li>
+    <li class="list-group-item" style="font-size:20px"> 
+      <i class="fas fa-users"></i>
+      <form action="/admin/dashboard/getAllUsers" method="GET">
+        <input type="submit" value="users" class="d-sidenav-item">
+      </form>
+    </li>
+    <li class="list-group-item" style="font-size:20px"> 
+      <i class="fas fa-mail-bulk"></i>
+      <form action="/admin/dashboard/complaints" method="GET">
+        <input type="submit" value="complaints" class="d-sidenav-item">
+      </form>
+    </li>
+  </ul>
+
+</nav>
